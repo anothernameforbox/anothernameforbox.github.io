@@ -69,17 +69,15 @@ body {
 
 .center-text {
 	text-align: center;
-	margin: 0;
-	padding: 0;
+}
+
+.contact-info {
+	display: inline-block;
+	text-align: left;
 }
 
 .contact-info h2 {
-	display: block;
-	text-align: left;
-}
-
-.contact-info p {
-	text-align: left;
+	padding-bottom: -1em;
 }
 
 .contact-info a {
@@ -91,14 +89,16 @@ body {
 
 nav {
   margin-top: 0;
+  
 }
 
 nav ul {
   display: block;
+
 }
 
 nav li {
-  display: inline;
+	display: inline;
   margin: 0 5px 0 0;
   color: GhostWhite;
 }
