@@ -48,19 +48,15 @@ body {
 
 /*Banner*/
 
-.page-title h1 {
-  display: inline-block;
-  
-}
-
 .main {
+  display: block;
   text-align: center;
 }
 
 .page-description {
   color: #fff;
   font-size: 5rem;
-  padding: 30px;
+  padding: 1rem 0 0 0;
   letter-spacing: 5px;
 }
 
@@ -88,7 +84,10 @@ body {
 /* Footer Navigation */
 
 nav {
-  margin-top: 0;
+  display: block;
+  margin: auto;
+  width: 20%;
+  
   
 }
 
