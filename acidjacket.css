@@ -77,17 +77,22 @@ body {
 .gallery h3 {
 	display: block;
 	position: relative;
-	bottom: 80px;
+	top: 1%;
 }
 
 .gallery iframe {
 	position: relative;
-	bottom: 105px;
+	top: -1em;
 }
 
 .gallery-item {
   margin-bottom: 20px; 
 
+}
+
+.gallery-item h1 {
+	font-size: 7em;
+	color: #fff;
 }
 
 .gallery-item .thumbnail {
@@ -113,9 +118,17 @@ body {
 }
 
 
-.container-video iframe {
+.video-container {
 	position: relative;
+	padding-bottom: 20%;
+	height: 0;
+}
+.video-container iframe {
+	position: absolute;
 	right: auto;
+	width: 100%;
+	height: 100%;
+
 }
 
 .container h5 a {
@@ -183,35 +196,23 @@ nav a {
   bottom: 2px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
-  .page-title {
-    width: 270px;
+@media only screen and (max-width: 951px) {
+  .gallery-item h1 {
+    font-size: 5em;
   
-  }
-  .gallery-item .thumbnail {
-    width: 95%;
   }
 }
 
-@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
-  .page-description {
-    font-size: 20px;
-  }
-} 
-
-@media only screen and (min-resolution: 150dpi){
-  .logo {
-    background-image: url("../img/spaceship@2x.png");
+@media only screen and (max-width: 880px) {
+  .video-container iframe {
+    width: 2em;
+  
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .page-title, .page-description {
-    float: left;
-    width: 20em;
-  }
-  .page-description {
-    text-align: left;
-  }
+@media only screen and (max-width: 707px) {
+  .gallery-item h1 {
+    font-size: 2em;
   
+  }
 }
