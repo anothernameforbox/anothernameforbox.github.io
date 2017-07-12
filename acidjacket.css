@@ -83,6 +83,7 @@ body {
 .gallery iframe {
 	position: relative;
 	top: -1em;
+	margin-top: 5em;
 }
 
 .gallery-item {
@@ -103,29 +104,25 @@ body {
 }
 
 /* video div */
-
 .container {
-	padding: 0 0 5em 0;
-	display: flex;
-	flex-wrap: relative;
-	justify-content: center;
-	
-}
-
-.container h3 {
-	text-align: center;
-	padding-bottom: 1em;
-}
-
-
-.video-container {
 	position: relative;
-	padding-bottom: 20%;
+	overflow: hidden;
 	height: 0;
+	padding-bottom: 50%;
 }
+
+
+.video-container h3 {
+	position: relative;
+	padding-top: -5rem;
+	
+	text-align: center;
+}
+
 .video-container iframe {
 	position: absolute;
-	right: auto;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 
