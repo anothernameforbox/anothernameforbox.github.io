@@ -48,11 +48,6 @@ body {
 
 /*Banner*/
 
-.page-title h1 {
-  display: inline-block;
-  
-}
-
 .main {
   text-align: center;
 }
@@ -83,10 +78,7 @@ body {
 	position: relative;
 	height: 0;
 	overflow: hidden;
-	padding-bottom: 20%;
-	display: block;
-	margin: 0;
-	
+	padding-bottom: 20%;	
 }
 
 .intrinsic-container iframe {
@@ -96,6 +88,7 @@ body {
 	width: 100%;
 	height: 100%;
 	border: 0;
+	
 }
 
 .gallery-item {
@@ -120,7 +113,6 @@ body {
 .video-container h3 {
 	position: relative;
 	padding-top: -5rem;
-	
 	text-align: center;
 }
 
@@ -215,14 +207,19 @@ nav a {
 @media only screen and (max-width: 707px) {
   .gallery-item h1 {
     font-size: 4em;
-  
   }
+  .intrinsic-container {
+	  padding-bottom: 30%;
+}
   
-  @media only screen and (max-width: 538px) {
+  @media only screen and (max-width: 585px) {
   .gallery-item h1 {
     font-size: 3em;
   }
+  .intrinsic-container {
+	padding-bottom: 45%;
+  } 
   .intrinsic-container iframe {
-	 width: 100%; 
+	 width: 100%;
   }
 }
