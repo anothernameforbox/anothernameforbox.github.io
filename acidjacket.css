@@ -108,13 +108,6 @@ body {
 	color: #fff;
 }
 
-.gallery-item .thumbnail {
-  width: 350px;
-  height: 470px;
-  border: 2px solid GhostWhite;
-  border-radius: 4px;
-}
-
 /* video div */
 .container {
 	position: relative;
